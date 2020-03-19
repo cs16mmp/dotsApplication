@@ -16,11 +16,20 @@ export function ItemSeparatorComponent() {
         <View style={{ marginTop: 24 }} />
     )
 }
+export function IconComponent(props) {
+    return (
+        <Icon
+            name={props.name}
+            size={props.size}
+            color={props.color}
+        />
+    )
+}
 export function ListFooterComponentHome() {
     return (
         <View style={{ flex: 1, height: 30, justifyContent: 'flex-end', flexDirection: 'row' }}>
             <View style={{ height: 30, width: 30, justifyContent: 'center', alignItems: 'center' }}>
-                <Icon
+                <IconComponent
                     name='settings'
                     size={24}
                     color={styles.colors.accentOrange}

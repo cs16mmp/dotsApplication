@@ -44,13 +44,11 @@ export const actionable = StyleSheet.create({
         fontSize: 10,
     }
 })
-export const card = StyleSheet.create({
-
-    card: {
+export function card(width, height) {
+    return {
         flex: 1,
-        minWidth: 343,
-        minHeight: 127,
-        maxHeight: 127,
+        minWidth: width,
+        minHeight: height,
         alignSelf: 'stretch',
         backgroundColor: '#FFFFFF',
         shadowColor: '#673939',
@@ -61,8 +59,10 @@ export const card = StyleSheet.create({
             width: 0,
             height: 5,
         },
-    },
-})
+        flexDirection: 'row',
+        padding: 16
+    }
+}
 
 
 

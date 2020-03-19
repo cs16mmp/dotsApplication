@@ -1,19 +1,13 @@
 import * as React from 'react'
 import { View, FlatList, Text } from 'react-native'
 
-import * as styles from '../styles/Styles'
+import * as Styles from '../styles/Styles'
 import * as components from '../components/Components'
 
-import { DATA } from '../screens/HomeScreen'
+import HomeItemLayout from './HomeItemLayout'
 
+import DATA from '../assets/data/MenuData.json'
 
-function Item({ title }) {
-    return (
-        <View style={styles.card.card}>
-
-        </View>
-    );
-}
 export default function HomeLayout() {
     return (
         <View style={{ flex: 1, backgroundColor: 'white' }}>
@@ -28,8 +22,14 @@ export default function HomeLayout() {
 
                 ItemSeparatorComponent={components.ItemSeparatorComponent}
 
-                data={DATA}
-                renderItem={({ item }) => <Item title={item.title} />}
+                data={DATA.Items}
+                renderItem={({ item }) =>
+                    <HomeItemLayout
+                        textTitle={item.title}
+                        textOverlay={item.overlay}
+                        textDescription={item.description}
+                        iconName={item.iconName}
+                    />}
                 keyExtractor={item => item.id}>
             </FlatList>
         </View>
