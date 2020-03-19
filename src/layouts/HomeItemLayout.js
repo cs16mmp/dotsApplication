@@ -1,31 +1,34 @@
 import * as React from 'react'
-import { View, Text, StyleSheet, ShadowPropTypesIOS } from 'react-native'
+import { View, Text, StyleSheet, TouchableWithoutFeedback } from 'react-native'
 
 import * as Styles from '../styles/Styles'
 import * as Components from '../components/Components'
 
 export default function HomeItemLayout(props) {
+
     return (
-        <View style={Styles.card("auto", 127)}>
-            <View style={{ flex: 1, alignSelf: "stretch" }}>
-                <View style={viewStyles.overlay}>
-                    <Text style={Styles.text.overline}>{props.textOverlay}</Text>
+        <TouchableWithoutFeedback onPress={() => console.warn("Tapped")}>
+            <View style={Styles.card("auto", 127)}>
+                <View style={{ flex: 1, alignSelf: "stretch" }}>
+                    <View style={viewStyles.overlay}>
+                        <Text style={Styles.text.overline}>{props.textOverlay}</Text>
+                    </View>
+                    <View style={viewStyles.title}>
+                        <Text style={Styles.text.headline5}>{props.textTitle}</Text>
+                    </View>
+                    <View style={viewStyles.description}>
+                        <Text style={Styles.text.body2}>{props.textDescription}</Text>
+                    </View>
                 </View>
-                <View style={viewStyles.title}>
-                    <Text style={Styles.text.headline5}>{props.textTitle}</Text>
-                </View>
-                <View style={viewStyles.description}>
-                    <Text style={Styles.text.body2}>{props.textDescription}</Text>
+                <View style={viewStyles.icon}>
+                    <Components.IconComponent
+                        name={props.iconName}
+                        size={24}
+                        color={Styles.colors.darkBlue}
+                    />
                 </View>
             </View>
-            <View style={viewStyles.icon}>
-                <Components.IconComponent
-                    name={props.iconName}
-                    size={24}
-                    color={Styles.colors.darkBlue}
-                />
-            </View>
-        </View>
+        </TouchableWithoutFeedback>
     )
 }
 const viewStyles = StyleSheet.create({

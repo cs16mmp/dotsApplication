@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, FlatList } from 'react-native'
 
 import * as styles from '../styles/Styles'
 
@@ -32,9 +32,28 @@ export function ListFooterComponentHome() {
                 <IconComponent
                     name='settings'
                     size={24}
-                    color={styles.colors.accentOrange}
+                    color={styles.colors.darkBlue}
                 />
             </View>
         </View>
+    )
+}
+export function FlatListComponent(props) {
+    return (
+        <FlatList
+            ListHeaderComponentStyle={{ marginVertical: 24 }}
+            ListHeaderComponent={ListHeaderComponent(props.title)}
+
+            ListFooterComponentStyle={{ marginVertical: 24 }}
+            ListFooterComponent={ListFooterComponentHome()}
+
+            contentContainerStyle={{ margin: 16 }}
+
+            ItemSeparatorComponent={ItemSeparatorComponent}
+
+            data={props.DATA}
+            renderItem={props.itemLayout}
+            keyExtractor={item => item.id}>
+        </FlatList>
     )
 }

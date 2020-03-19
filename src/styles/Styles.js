@@ -51,7 +51,7 @@ export function card(width, height) {
         minHeight: height,
         alignSelf: 'stretch',
         backgroundColor: '#FFFFFF',
-        shadowColor: '#673939',
+        shadowColor: '#000',
         shadowOpacity: .25,
         borderRadius: 12,
         shadowRadius: 13,
