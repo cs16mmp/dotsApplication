@@ -3,8 +3,14 @@ import { View, Text, FlatList } from 'react-native'
 
 import * as styles from '../styles/Styles'
 
+import * as RootNavigation from '../navigation/RootNavigator'
+
 import Icon from 'react-native-vector-icons/MaterialIcons'
 Icon.loadFont()
+
+export function navigateToComponent(screenId) {
+    RootNavigation.navigate(screenId)
+}
 
 export function ListHeaderComponent(text) {
     return (

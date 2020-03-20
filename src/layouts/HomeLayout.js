@@ -15,6 +15,7 @@ function Item(item) {
             textOverlay={item.overlay}
             textDescription={item.description}
             iconName={item.iconName}
+            screenID={item.id}
         />
     )
 }
