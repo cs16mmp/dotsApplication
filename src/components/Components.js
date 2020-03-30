@@ -45,10 +45,11 @@ export function ListFooterComponentHome() {
     )
 }
 export function FlatListComponent(props) {
+    console.log(props.DATA)
     return (
         <FlatList
-            ListHeaderComponentStyle={{ marginVertical: 24 }}
-            ListHeaderComponent={ListHeaderComponent(props.title)}
+            // ListHeaderComponentStyle={{ marginVertical: 24 }}
+            // ListHeaderComponent={ListHeaderComponent(props.title)}
 
             ListFooterComponentStyle={{ marginVertical: 24 }}
             ListFooterComponent={ListFooterComponentHome()}
@@ -63,3 +64,4 @@ export function FlatListComponent(props) {
         </FlatList>
     )
 }
+

@@ -2,12 +2,14 @@ import 'react-native-gesture-handler';
 import * as React from 'react'
 import { View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
+import { createStackNavigator, HeaderBackButton } from '@react-navigation/stack'
 import { navigationRef } from './RootNavigator'
 
 import HomeScreen from '../screens/HomeScreen'
 import TestingKitScreen from '../screens/TestingKitScreen'
 import RemindersScreen from '../screens/RemindersScreen'
+
+import * as Styles from '../styles/Styles'
 
 const Stack = createStackNavigator();
 
@@ -16,6 +18,7 @@ const header = {
     headerStyle: {
         backgroundColor: 'transparent',
     },
+    headerTintColor: Styles.colors.darkBlue,
 }
 
 export default function NavigationStack() {

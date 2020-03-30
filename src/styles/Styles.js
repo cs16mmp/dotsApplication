@@ -7,7 +7,6 @@ export const colors = {
     darkBlue: '#1D325F',
     lightBlue: '#43A0FF'
 }
-
 export const text = StyleSheet.create({
 
     headline4: {
@@ -44,7 +43,7 @@ export const actionable = StyleSheet.create({
         fontSize: 10,
     }
 })
-export function card(width, height) {
+export function card(width, height, flexDirection) {
     return {
         flex: 1,
         minWidth: width,
@@ -59,7 +58,7 @@ export function card(width, height) {
             width: 0,
             height: 5,
         },
-        flexDirection: 'row',
+        flexDirection: flexDirection,
         padding: 16
     }
 }

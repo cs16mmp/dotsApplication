@@ -5,10 +5,9 @@ import * as Styles from '../styles/Styles'
 import * as Components from '../components/Components'
 
 export default function HomeItemLayout(props) {
-
     return (
         <TouchableWithoutFeedback onPress={() => Components.navigateToComponent(props.screenID)}>
-            <View style={Styles.card("auto", 127)}>
+            <View style={Styles.card("auto", 127, "row")}>
                 <View style={{ flex: 1, alignSelf: "stretch" }}>
                     <View style={viewStyles.overlay}>
                         <Text style={Styles.text.overline}>{props.textOverlay}</Text>
