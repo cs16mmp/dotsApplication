@@ -6,6 +6,7 @@ import { createStackNavigator, HeaderBackButton } from '@react-navigation/stack'
 import { navigationRef } from './RootNavigator'
 
 import HomeScreen from '../screens/HomeScreen'
+import ClinicsScreen from '../screens/ClinicsScreen'
 import TestingKitScreen from '../screens/TestingKitScreen'
 import RemindersScreen from '../screens/RemindersScreen'
 
@@ -28,9 +29,8 @@ export default function NavigationStack() {
                 <Stack.Screen name="Home" component={HomeScreen} options={header} />
                 <Stack.Screen name="9a2bfb83-a2e5-4614-bb31-c1544f52550b" component={TestingKitScreen} options={header} />
                 <Stack.Screen name="d9853ff8-07b3-4be4-9830-63f78fae87a6" component={RemindersScreen} options={header} />
+                <Stack.Screen name="912a8e64-7bf5-456b-a8c1-f6ac9c07d5a9" component={ClinicsScreen} options={header} />
             </Stack.Navigator>
         </NavigationContainer>
     );
-
-
 }
