@@ -1,0 +1,18 @@
+projects:
+  connectDB-dev:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: us-east-1
+        apiId: u6w3cqdrnvh3lb6it6lbnh7ji4
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
