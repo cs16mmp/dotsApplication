@@ -1,18 +1,22 @@
 [
   {
     "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    "title": "STI testing - no symptoms"
+    "title": "STI testing - no symptoms",
+    "band": 1
   },
   {
     "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    "title": "STI testing - symptoms"
+    "title": "STI testing - symptoms",
+    "band": 2
   },
   {
     "id": "58694a0f-3da1-471f-bd96-145571e29d72",
-    "title": "Emergency"
+    "title": "Emergency",
+    "band": 3
   },
   {
     "id": "58694a0f-3da1-471f-bd96-145571e29d34",
-    "title": "Support"
+    "title": "Support",
+    "band": 4
   }
 ]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58947253112d",
+    "name": "AIDSMAP",
+    "description": "UK-based website offering HIV resources including a database of international services, a series of booklets, daily news reporting, regular email bulletins and comprehensive summaries of research on HIV treatment and prevention.",
+    "website": "http://www.aidsmap.com/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58947252342d",
+    "name": "AVERT",
+    "description": "AVERT is an international HIV and AIDS charity based in the UK, with the aim of AVERTing HIV and AIDS worldwide.",
+    "website": "http://www.avert.org/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58945432553112d",
+    "name": "Being gay is OK!",
+    "description": "A website offering great support for anyone struggling to deal with being gay.",
+    "website": "http://www.bgiok.org.uk/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-543553447253112d",
+    "name": "Condom Essential Wear",
+    "description": "Advice on safer sex and using condoms.",
+    "website": "http://www.condomessentialwear.co.uk/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-5892342353112d",
+    "name": "Galop",
+    "description": "London's lesbian, gay, bisexual and transgender (LGBT) community safety charity.",
+    "website": "http://www.galop.org.uk/"
+  }
+]
