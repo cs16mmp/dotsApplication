@@ -15,6 +15,7 @@ PubSub.configure(config)
 export const RECEIVE_DATA = 'QUERY'
 
 function receiveDataClinics(json) {
+
     return {
         type: RECEIVE_DATA,
         clinics: json.data.listClinicsDBs.items,

@@ -3,14 +3,30 @@ import { combineReducers } from 'redux';
 
 //const state = { appointments: [], clinics: [] };
 
-export default function reducer(state = { appointments: [], clinics: [] }, action) {
+function clinicsReducer(state = { clinics: [] }, action) {
 
     switch (action.type) {
         case 'QUERY':
-            return { ...state, appointments: action.appointments, clinics: action.clinics }
+            return { ...state, clinics: action.clinics }
+        default:
+            return state
+    }
+}
+function appointmentsReducer(state = { appointments: [] }, action) {
+
+    switch (action.type) {
+        case 'QUERY':
+            return { ...state, appointments: action.appointments }
         case 'SUBSCRIPTION':
             return { ...state, appointments: [...state.appointments, action.appointments] }
         default:
             return state
     }
 }
+
+const rootReducer = combineReducers({
+    clinicsReducer,
+    appointmentsReducer
+})
+
+export default rootReducer

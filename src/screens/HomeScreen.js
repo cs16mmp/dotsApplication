@@ -7,6 +7,7 @@ import * as Components from '../components/Components'
 
 import DATA from '../assets/data/MenuData.json'
 
+
 function Item(item) {
     return (
         <HomeMenuCardComponent

@@ -23,7 +23,7 @@ export default function AvailableAppointmentsComponent(props) {
 
     return (
         <FlatList
-            data={DATA.AVAILABLE_APPOINTMENTS_DATA}
+            data={props.appointments}
             renderItem={({ item }) => (
                 <TouchableHighlight
                     onPress={() => { props.parentHandlePress() }}>

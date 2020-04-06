@@ -45,7 +45,6 @@ export function ListFooterComponentHome() {
     )
 }
 export function FlatListComponent(props) {
-    console.log(props.DATA)
     return (
         <FlatList
             // ListHeaderComponentStyle={{ marginVertical: 24 }}

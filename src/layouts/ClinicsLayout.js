@@ -1,24 +1,32 @@
 import * as React from 'react'
 import { View, FlatList, Text, ScrollView, Modal } from 'react-native'
 
+import { connect } from 'react-redux';
+
 import ClinicsCarouselComponent from '../components/ClinicsCarouselComponent'
 import CarouselPickerComponent from '../components/CarouselPickerComponent'
 import AvailableAppointmentsComponent from '../components/AvailableAppointmentsComponent'
 import AppointmentTypeComponent from '../components/AppointmentTypeComponent'
 import ConfirmAppointmentCard from '../components/cards/ConfirmAppointmentCard'
 
-import * as DATA from "../screens/ClinicsScreen"
-
-import TYPE_DATA from "../assets/data/AppointmentType.json"
+import ClinicCardComponent from '../components/cards/ClinicCardComponent'
 
 import DateItem from '../components/DateItem'
 import TypeAppointmentItem from '../components/TypeAppointmentItem'
+
+import * as DATA from "../screens/ClinicsScreen"
+import TYPE_DATA from "../assets/data/AppointmentType.json"
+
+import { store } from '../navigation/store'
+import * as actions from '../actions/actions'
+
+store.dispatch(actions.fetchDataClinics(), actions.fetchDataAppointments())
 
 export default function ClinicsLayout() {
 
     const [modalVisible, setModalVisible] = React.useState(false)
 
-    console.log(TYPE_DATA)
+    //console.log('Clinics Layout', store.getState())
 
     return (
         <View style={{ flex: 1 }}>
@@ -27,17 +35,20 @@ export default function ClinicsLayout() {
                 transparent={true}
                 visible={modalVisible}
                 onRequestClose={() => {
-                    Alert.alert("Modal has been closed.");
+                    console.alert("Modal has been closed.");
                 }}>
                 <ConfirmAppointmentCard
                     parentHandlePress={() => setModalVisible(!modalVisible)}
                 />
             </Modal>
-            <View style={{ flex: 1, minHeight: 170 }} >
 
-                <ClinicsCarouselComponent />
-
+            <View style={{ flex: 1, minHeight: 175 }} >
+                <CarouselPickerComponent
+                    Item={ClinicCardComponent}
+                    Data={[]}
+                />
             </View>
+
             <View style={{ flex: 1, minHeight: 50 }} >
 
                 <CarouselPickerComponent
@@ -54,10 +65,11 @@ export default function ClinicsLayout() {
                 />
 
             </View>
-            <View style={{ flex: 1, minHeight: 400 }} >
+            <View style={{ flex: 1, minHeight: 300 }} >
 
                 <AvailableAppointmentsComponent
                     parentHandlePress={() => setModalVisible(true)}
+                    Data={[]}
                 />
 
             </View>
