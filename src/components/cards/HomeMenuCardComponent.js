@@ -1,14 +1,15 @@
 import * as React from 'react'
-import { View, Text, TouchableHighlight, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
-import * as styles from '../styles/Styles'
+import * as Styles from '../../styles/Styles'
+import * as Components from '../Components'
 
-import * as RootNavigation from '../navigation/RootNavigator'
-
-export function HomeMenu(props) {
+export default function HomeMenuCardComponent(props) {
     return (
-        <TouchableHighlight onPress={() => RootNavigation.navigate(props.screenID)}>
-            <View style={Styles.card("auto", 127, "row")}>
+        <TouchableOpacity
+            onPress={() => Components.navigateToComponent(props.screenID)}
+            activeOpacity={0.5}>
+            <View style={Styles.card("auto", 130, "row")}>
                 <View style={{ flex: 1, alignSelf: "stretch" }}>
                     <View style={viewStyles.overlay}>
                         <Text style={Styles.text.overline}>{props.textOverlay}</Text>
@@ -28,14 +29,32 @@ export function HomeMenu(props) {
                     />
                 </View>
             </View>
-        </TouchableHighlight>
+        </TouchableOpacity>
     )
 }
+const viewStyles = StyleSheet.create({
+    icon: {
+        flex: 1,
+        maxWidth: 30,
+        justifyContent: 'flex-start',
+        alignSelf: 'stretch',
+        marginLeft: 16
 
-export function Clinic(props) {
-
-}
-
-export function Appointment(props) {
-
-}
+    },
+    overlay: {
+        flex: 1,
+        maxHeight: 15,
+        alignSelf: 'stretch',
+    },
+    title: {
+        flex: 1,
+        maxHeight: 30,
+        alignSelf: 'stretch',
+        marginVertical: 8,
+    },
+    description: {
+        flex: 1,
+        minHeight: 28,
+        alignSelf: 'stretch',
+    },
+})

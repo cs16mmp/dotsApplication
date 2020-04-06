@@ -1,25 +1,23 @@
-{
-  "Items": [
-    {
-      "id": "69f6fb58-ddc1-4150-b3d5-58947253112d",
-      "overlay": "SOUTHWARK",
-      "title": "Burrell Street",
-      "address": "4-5 Burrell St, London SE1 0UN",
-      "phoneNumber": "020 7188 6666"
-    },
-    {
-      "id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
-      "overlay": "SOHO",
-      "title": "Dean Street",
-      "address": "456 Dean St, Soho, London W1D 6AE",
-      "phoneNumber": "020 3315 5656"
-    },
-    {
-      "id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
-      "overlay": "HAMMERSMITH",
-      "title": "Chelsea Hospital",
-      "address": "10 Hammersmith Broadway, Hammersmith, London W6 7AL",
-      "phoneNumber": "020 3315 1010"
-    }
-  ]
-}
+[
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58947253112d",
+    "overlay": "SOUTHWARK",
+    "title": "Burrell Street",
+    "address": "4-5 Burrell St, London SE1 0UN",
+    "phoneNumber": "020 7188 6666"
+  },
+  {
+    "id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "overlay": "SOHO",
+    "title": "Dean Street",
+    "address": "456 Dean St, Soho, London W1D 6AE",
+    "phoneNumber": "020 3315 5656"
+  },
+  {
+    "id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "overlay": "HAMMERSMITH",
+    "title": "Chelsea Hospital",
+    "address": "10 Hammersmith Broadway, Hammersmith, London W6 7AL",
+    "phoneNumber": "020 3315 1010"
+  }
+]

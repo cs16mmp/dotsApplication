@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import HomeItemLayout from '../layouts/HomeItemLayout'
+import HomeMenuCardComponent from '../components/cards/HomeMenuCardComponent'
 import ScreenLayout from '../layouts/ScreenLayout'
 
 import * as Components from '../components/Components'
@@ -9,7 +9,7 @@ import DATA from '../assets/data/MenuData.json'
 
 function Item(item) {
     return (
-        <HomeItemLayout
+        <HomeMenuCardComponent
             textTitle={item.title}
             textOverlay={item.overlay}
             textDescription={item.description}

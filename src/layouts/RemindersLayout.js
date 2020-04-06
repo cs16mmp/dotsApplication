@@ -7,7 +7,7 @@ import * as Components from '../components/Components'
 function PillboxComponent() {
     return (
         <View style={Styles.card('auto', 200, "column")}>
-            <View style={{ flex: 1, maxHeight: 30, flexDirection: 'row', justifyContent: 'space-between', marginBottom: 16}}>
+            <View style={{ flex: 1, maxHeight: 30, flexDirection: 'row', justifyContent: 'space-between', marginBottom: 16 }}>
                 <Text style={Styles.text.headline5}>Pillbox</Text>
                 <Switch></Switch>
             </View>

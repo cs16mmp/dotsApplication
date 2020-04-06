@@ -24,12 +24,21 @@ export const text = StyleSheet.create({
         color: colors.darkBlue,
         fontSize: 14,
     },
+    body2Heavy: {
+        fontFamily: 'Avenir-Heavy',
+        color: colors.darkBlue,
+        fontSize: 14,
+    },
     overline: {
         fontFamily: 'Avenir-Book',
         color: colors.darkBlue,
         fontSize: 10,
+    },
+    headline6: {
+        fontFamily: 'Avenir-Heavy',
+        color: 'white',
+        fontSize: 20,
     }
-
 })
 export const actionable = StyleSheet.create({
     body2: {
@@ -43,6 +52,14 @@ export const actionable = StyleSheet.create({
         fontSize: 10,
     }
 })
+export function button(width, height) {
+    return {
+        backgroundColor: colors.accentOrange,
+        borderRadius: 12,
+        height: height,
+        width: width,
+    }
+}
 export function card(width, height, flexDirection) {
     return {
         flex: 1,
