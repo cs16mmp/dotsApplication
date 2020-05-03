@@ -21,9 +21,11 @@ function _sortData(DATA) {
 
 export default function AvailableAppointmentsComponent(props) {
 
+    console.log('PROPS', props)
+
     return (
         <FlatList
-            data={props.appointments}
+            data={props.Data}
             renderItem={({ item }) => (
                 <TouchableHighlight
                     onPress={() => { props.parentHandlePress() }}>
