@@ -9,12 +9,19 @@ const _changeColor = (selected) => {
     )
 }
 
+function _storeItem(item) {
+
+    global.SELECTED_DATE = item
+    console.log(global.SELECTED_DATE)
+
+}
+
 export default function DateItem({ item, selected, onSelect }) {
 
     return (
         <TouchableOpacity
-            onPress={() => onSelect(item.id)}
-            activeOpacity={0.2}>
+            onPress={() => { onSelect(item.id); _storeItem(item) }}
+            activeOpacity={0.5}>
             <View style={{ height: 30, flexDirection: "column" }}>
                 <View style={{ flex: 1 }}>
                     <Text style={[Styles.text.overline, _changeColor(selected)]}>{item.day}</Text>

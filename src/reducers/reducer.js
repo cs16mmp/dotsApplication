@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 
 
 function clinicsReducer(state = { clinics: [] }, action) {
-    console.log('reducer', state)
+    //console.log('reducer', state)
     switch (action.type) {
         case 'QUERY':
             return { ...state, clinics: action.clinics }
@@ -12,7 +12,7 @@ function clinicsReducer(state = { clinics: [] }, action) {
     }
 }
 function appointmentsReducer(state = { appointments: [] }, action) {
-    console.log('reducer', state)
+    //console.log('reducer', state)
     switch (action.type) {
         case 'QUERY':
             return { ...state, appointments: action.appointments }
@@ -24,7 +24,7 @@ function appointmentsReducer(state = { appointments: [] }, action) {
 }
 function organisationsReducer(state = { organisations: [] }, action) {
 
-    console.log('reducer', state)
+    //console.log('reducer', state)
 
     switch (action.type) {
         case 'QUERY':

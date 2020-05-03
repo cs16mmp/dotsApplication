@@ -27,14 +27,14 @@ function receiveDataAppointments(json) {
     }
 }
 function receiveDataOrganisations(json) {
-    console.log('actions', json.data.listOrganiationsDBs.items)
+    //console.log('actions', json.data.listOrganiationsDBs.items)
     return {
         type: RECEIVE_DATA,
         organisations: json.data.listOrganiationsDBs.items,
     }
 }
 function receiveDataInfections(json) {
-    console.log('actions', json.data.listOrganiationsDBs.items)
+    //console.log('actions', json.data.listOrganiationsDBs.items)
     return {
         type: RECEIVE_DATA,
         Infections: json.data.listInfectionsDBs.items,

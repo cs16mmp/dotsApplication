@@ -5,6 +5,13 @@ import * as systemStyles from '../../styles/Styles'
 
 import * as ClinicsScreen from '../../screens/ClinicsScreen'
 
+function _dateToTime(date) {
+    DATE = new Date(date)
+    hours = DATE.getHours();
+    minutes = DATE.getMinutes();
+    return hours + ":" + minutes;
+}
+
 export default function ConfirmAppointmentCard(props) {
 
     const [value, onChangeText] = React.useState({
@@ -36,8 +43,8 @@ export default function ConfirmAppointmentCard(props) {
                         </TouchableWithoutFeedback>
                     </View>
                     <View style={styles.appointment}>
-                        <Text style={styles.appointmentText}>CLINIC</Text>
-                        <Text style={styles.appointmentText}>DATE</Text>
+                        <Text style={styles.appointmentText}>{props.clinic}</Text>
+                        <Text style={styles.appointmentText}>{_dateToTime(props.date)}</Text>
                     </View>
                     <View style={styles.small}>
                         <Text style={styles.text}>Name</Text>

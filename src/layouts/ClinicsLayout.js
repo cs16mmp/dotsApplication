@@ -43,8 +43,8 @@ export default function ClinicsLayout() {
                 }}>
                 <ConfirmAppointmentCard
                     parentHandlePress={() => setModalVisible(!modalVisible)}
-                    clinic="test"
-                    date="date"
+                    clinic={global.SELECTED_CLINIC.name}
+                    date={global.SELECTED_BOOKING.time}
                 />
             </Modal>
             <View style={{ flex: 1, minHeight: 175 }} >

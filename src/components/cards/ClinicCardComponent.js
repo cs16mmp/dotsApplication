@@ -11,13 +11,20 @@ const _changeColor = (selected) => {
     )
 }
 
+function storeItem(item) {
+
+    global.SELECTED_CLINIC = item
+    console.log(global.SELECTED_CLINIC)
+
+}
+
 export default function ClinicCardComponent({ item, selected, onSelect }) {
 
     return (
         <View style={styles.container}>
             <TouchableOpacity
-                onPress={() => onSelect(item.id)}
-                activeOpacity={0.2}>
+                onPress={() => { onSelect(item.id); storeItem(item) }}
+                activeOpacity={0.5}>
                 <View style={Styles.card(286, 127, 'row')}>
                     <View style={styles.text}>
                         <View style={styles.overlay}>

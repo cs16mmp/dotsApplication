@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { View, Image, Text, StyleSheet, FlatList, TouchableHighlight } from 'react-native';
+import { View, Image, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 
 import AppointmentCardComponent from "../components/cards/AppointmentCardComponent";
 
@@ -14,25 +14,33 @@ function toHumanTime(time) {
 }
 
 function _sortData(DATA) {
-    DATA.AVAILABLE_APPOINTMENTS_DATA.sort(function (a, b) {
+    DATA.sort(function (a, b) {
         return a.time - b.time
     })
 }
 
+function _storeItem(item) {
+
+    global.SELECTED_BOOKING = item
+    console.log(global.SELECTED_BOOKING)
+
+}
+
 export default function AvailableAppointmentsComponent(props) {
 
-    console.log('PROPS', props)
+    props.Data = _sortData(props.Data)
 
     return (
         <FlatList
             data={props.Data}
             renderItem={({ item }) => (
-                <TouchableHighlight
-                    onPress={() => { props.parentHandlePress() }}>
+                <TouchableOpacity
+                    activeOpacity={0.5}
+                    onPress={() => { props.parentHandlePress(); _storeItem(item) }}>
                     <AppointmentCardComponent
                         timeString={toHumanTime(item.time)}
                     />
-                </TouchableHighlight>)}
+                </TouchableOpacity>)}
             keyExtractor={item => item.id}
         />
     );

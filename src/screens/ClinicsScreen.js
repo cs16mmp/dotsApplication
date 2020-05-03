@@ -38,6 +38,15 @@ export var INITIAL_BOOKING_DATA = {
     band: "",
 }
 
+export var BOOKING_DATA = {
+    id: "",
+    clinic_id: "",
+    time: "00:00",
+    band: "",
+}
+
+export var CLINIC_ID = "CLINIC"
+
 export var APPOINTMENT_DATA = {
     id: "",
     clinic_id: "",
@@ -46,7 +55,6 @@ export var APPOINTMENT_DATA = {
     phone: "",
     created_at: ""
 }
-
 
 export function addAppointment() {
 
@@ -66,6 +74,5 @@ export default function ClinicsScreen() {
             body={ClinicsLayout()}>
         </ScreenLayout>
     )
-
 
 }
