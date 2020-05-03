@@ -15,19 +15,23 @@ import DateItem from '../components/DateItem'
 import TypeAppointmentItem from '../components/TypeAppointmentItem'
 
 import * as DATA from "../screens/ClinicsScreen"
+
+//In case the Server does not work
 import TYPE_DATA from "../assets/data/AppointmentType.json"
+import CLINICS_DATA from "../assets/data/ClinicsData.json"
+import APPOINTMENTS_DATA from "../assets/data/AppointmentsData.json"
+const clinics_data = CLINICS_DATA
+const appointments_data = APPOINTMENTS_DATA
 
 import { store } from '../navigation/store'
-import * as actions from '../actions/actions'
 
-store.dispatch(actions.fetchDataClinics(), actions.fetchDataAppointments())
+const type_data = TYPE_DATA
+
+// const clinics_data = store.getState().clinicsReducer()
+// const appointments_data = store.getState().appointmentsReducer()
 
 export default function ClinicsLayout() {
-
     const [modalVisible, setModalVisible] = React.useState(false)
-
-    //console.log('Clinics Layout', store.getState())
-
     return (
         <View style={{ flex: 1 }}>
             <Modal
@@ -39,39 +43,33 @@ export default function ClinicsLayout() {
                 }}>
                 <ConfirmAppointmentCard
                     parentHandlePress={() => setModalVisible(!modalVisible)}
+                    clinic="test"
+                    date="date"
                 />
             </Modal>
-
             <View style={{ flex: 1, minHeight: 175 }} >
                 <CarouselPickerComponent
                     Item={ClinicCardComponent}
-                    Data={[]}
+                    Data={clinics_data}
                 />
             </View>
-
             <View style={{ flex: 1, minHeight: 50 }} >
-
                 <CarouselPickerComponent
                     Item={DateItem}
                     Data={DATA.DATE_DATA}
                 />
-
             </View>
             <View style={{ flex: 1, minHeight: 50, alignItems: 'center' }} >
-
                 <CarouselPickerComponent
                     Item={TypeAppointmentItem}
-                    Data={TYPE_DATA}
+                    Data={type_data}
                 />
-
             </View>
             <View style={{ flex: 1, minHeight: 300 }} >
-
                 <AvailableAppointmentsComponent
                     parentHandlePress={() => setModalVisible(true)}
-                    Data={[]}
+                    Data={appointments_data}
                 />
-
             </View>
         </View>
     )

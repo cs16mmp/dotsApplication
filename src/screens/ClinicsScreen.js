@@ -52,15 +52,13 @@ export function addAppointment() {
 
     console.log('ADD APPOINTMENT')
 
-    // APPOINTMENT_DATA.id = uuid()
-    // actions.updateBookingTable(SELECTED_BOOKING_ID, APPOINTMENT_DATA)
-    // actions.addAppointment(APPOINTMENT_DATA)
+    APPOINTMENT_DATA.id = uuid()
+    actions.updateBookingTable(SELECTED_BOOKING_ID, APPOINTMENT_DATA)
+    actions.addAppointment(APPOINTMENT_DATA)
 
 }
 
-export default function ClinicsScreen(props) {
-
-    console.log('props', props.getClinics)
+export default function ClinicsScreen() {
 
     return (
         <ScreenLayout

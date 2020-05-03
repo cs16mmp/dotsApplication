@@ -39,20 +39,15 @@ function Item(item, index, select, onSelect, ItemInterface) {
 }
 
 export default CarouselPickerComponent = (props) => {
-
     const [selected, setSelected] = React.useState(new Map());
-
     const onSelect = React.useCallback(
         id => {
             const newSelected = new Map(selected);
-
             [...newSelected.keys()].forEach((key) => {
                 newSelected.set(key, false)
             })
             newSelected.set(id, !selected.get(id));
-
             setSelected(newSelected);
-
         },
         [selected],
     );
@@ -60,14 +55,14 @@ export default CarouselPickerComponent = (props) => {
         <FlatList
             horizontal={true}
             data={props.Data}
-            renderItem={({ item, index }) => Item(item, index, selected.get(item.id), onSelect, props.Item)}
+            renderItem={({ item, index }) =>
+                Item(item, index, selected.get(item.id), onSelect, props.Item)}
             keyExtractor={item => item.id}
             extraData={selected}
             ItemSeparatorComponent={_ItemSeparatorComponent}
             ListHeaderComponent={_ItemSeparatorComponent}
             ListFooterComponent={_ItemSeparatorComponent}
-            style={{ paddingVertical: 16 }}
-        >
+            style={{ paddingVertical: 16 }}>
         </FlatList>
     );
 }
