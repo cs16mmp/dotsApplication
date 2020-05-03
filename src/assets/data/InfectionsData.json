@@ -1,0 +1,26 @@
+[
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58947253112d",
+    "name": "Chlamydia",
+    "description": "pain when peeing, unusual discharge from the vagina, penis or bottom, in women, pain in the tummy, bleeding after sex and bleeding between periods, in men, pain and swelling in the testicles",
+    "website": "https://www.nhs.uk/conditions/chlamydia/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58947252342d",
+    "name": "Gonorrhoea",
+    "description": "Typical symptoms of gonorrhoea include a thick green or yellow discharge from the vagina or penis, pain when peeing and, in women, bleeding between periods.",
+    "website": "https://www.nhs.uk/conditions/gonorrhoea/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-58945432553112d",
+    "name": "Genital warts",
+    "description": "1 or more painless growths or lumps around your vagina, penis or anus, itching or bleeding from your genitals or anus, a change to your normal flow of pee (for example, sideways) that does not go away, a sexual partner who has genital warts, even if you have no symptoms",
+    "website": "https://www.nhs.uk/conditions/genital-warts/"
+  },
+  {
+    "id": "69f6fb58-ddc1-4150-b3d5-543553447253112d",
+    "name": "Syphilis",
+    "description": "small, painless sores or ulcers that typically appear on the penis, vagina, or around the anus, but can occur in other places such as the mouth, a blotchy red rash that often affects the palms of the hands or soles of the feet, small skin growths (similar to genital warts) that may develop on the vulva in women or around the bottom (anus) in both men and women, white patches in the mouth tiredness, headaches, joint pains, a high temperature (fever) and swollen glands in your neck, groin or armpits",
+    "website": "https://www.nhs.uk/conditions/syphilis/"
+  }
+]

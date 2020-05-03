@@ -15,20 +15,31 @@ PubSub.configure(config)
 export const RECEIVE_DATA = 'QUERY'
 
 function receiveDataClinics(json) {
-
     return {
         type: RECEIVE_DATA,
         clinics: json.data.listClinicsDBs.items,
     }
 }
-
 function receiveDataAppointments(json) {
     return {
         type: RECEIVE_DATA,
         appointments: json.data.listBookingSystemDBs.items,
     }
 }
-
+function receiveDataOrganisations(json) {
+    console.log('actions', json.data.listOrganiationsDBs.items)
+    return {
+        type: RECEIVE_DATA,
+        organisations: json.data.listOrganiationsDBs.items,
+    }
+}
+function receiveDataInfections(json) {
+    console.log('actions', json.data.listOrganiationsDBs.items)
+    return {
+        type: RECEIVE_DATA,
+        Infections: json.data.listInfectionsDBs.items,
+    }
+}
 export function updateBookingTable(booking_id, appointmentData) {
 
     return function (dispatch) {
@@ -46,7 +57,6 @@ export function updateBookingTable(booking_id, appointmentData) {
         )
     }
 }
-
 export function addAppointment(appointmentData) {
 
     return function (dispatch) {
@@ -61,9 +71,7 @@ export function addAppointment(appointmentData) {
     }
 }
 export function fetchDataClinics() {
-
     return function (dispatch) {
-
         return API.graphql(graphqlOperation(queries.listClinicsDBs))
             .then(
                 response => response,
@@ -73,7 +81,32 @@ export function fetchDataClinics() {
                 json => dispatch(receiveDataClinics(json)))
     }
 }
+export function fetchDataOrganisations() {
 
+    return function (dispatch) {
+
+        return API.graphql(graphqlOperation(queries.listOrganiationsDBs))
+            .then(
+                response => response,
+                error => console.log('List Clinics Error,', error),
+            )
+            .then(
+                json => dispatch(receiveDataOrganisations(json)))
+    }
+}
+export function fetchDataInfections() {
+
+    return function (dispatch) {
+
+        return API.graphql(graphqlOperation(queries.listInfectionsDBs))
+            .then(
+                response => response,
+                error => console.log('List Clinics Error,', error),
+            )
+            .then(
+                json => dispatch(receiveDataOrganisations(json)))
+    }
+}
 export function fetchDataAppointments() {
 
     const filter = {

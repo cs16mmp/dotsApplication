@@ -1,10 +1,9 @@
 import * as React from 'react'
 import { combineReducers } from 'redux';
 
-//const state = { appointments: [], clinics: [] };
 
 function clinicsReducer(state = { clinics: [] }, action) {
-
+    console.log('reducer', state)
     switch (action.type) {
         case 'QUERY':
             return { ...state, clinics: action.clinics }
@@ -13,7 +12,7 @@ function clinicsReducer(state = { clinics: [] }, action) {
     }
 }
 function appointmentsReducer(state = { appointments: [] }, action) {
-
+    console.log('reducer', state)
     switch (action.type) {
         case 'QUERY':
             return { ...state, appointments: action.appointments }
@@ -23,10 +22,20 @@ function appointmentsReducer(state = { appointments: [] }, action) {
             return state
     }
 }
+function organisationsReducer(state = { organisations: [] }, action) {
 
+    console.log('reducer', state)
+
+    switch (action.type) {
+        case 'QUERY':
+            return { ...state, organisations: action.organisations }
+        default:
+            return state
+    }
+}
 const rootReducer = combineReducers({
     clinicsReducer,
-    appointmentsReducer
+    appointmentsReducer,
+    organisationsReducer
 })
-
 export default rootReducer
