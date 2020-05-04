@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, TouchableWithoutFeedback, Text, StyleSheet, ScrollView, Button, TextInput } from 'react-native'
+import { View, TouchableOpacity, Text, StyleSheet, ScrollView, Button, TextInput } from 'react-native'
 
 import * as systemStyles from '../../styles/Styles'
 
@@ -31,16 +31,18 @@ export default function ConfirmAppointmentCard(props) {
                         <Button
                             color={systemStyles.colors.darkBlue}
                             title="Cancel"
-                            onPress={() => { props.parentHandlePress() }}
+                            onPress={() => { props.parentHandlePress(false) }}
                         />
-                        <TouchableWithoutFeedback
-                            onPress={() => { ClinicsScreen.addAppointment() }}>
+                        <TouchableOpacity
+                            onPress={() => { props.parentHandlePress(true) }}
+                            activeOpacity={0.5}
+                        >
                             <View style={systemStyles.button(80, 40)}>
                                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                                     <Text style={systemStyles.text.headline6}>Done</Text>
                                 </View>
                             </View>
-                        </TouchableWithoutFeedback>
+                        </TouchableOpacity>
                     </View>
                     <View style={styles.appointment}>
                         <Text style={styles.appointmentText}>{props.clinic}</Text>

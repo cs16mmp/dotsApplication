@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, FlatList, Text, ScrollView, Modal } from 'react-native'
+import { View, FlatList, Text, ScrollView, Modal, Alert } from 'react-native'
 
 import ClinicsCarouselComponent from '../components/ClinicsCarouselComponent'
 import CarouselPickerComponent from '../components/CarouselPickerComponent'
@@ -11,6 +11,8 @@ import ClinicCardComponent from '../components/cards/ClinicCardComponent'
 
 import DateItem from '../components/DateItem'
 import TypeAppointmentItem from '../components/TypeAppointmentItem'
+
+import * as Components from '../components/Components'
 
 import * as DATA from "../screens/ClinicsScreen"
 
@@ -35,10 +37,12 @@ global.SELECTED_BOOKING = ""
 
 //var appointments_data = filterData()
 
+
+
 export default function ClinicsLayout(props) {
 
     const [modalVisible, setModalVisible] = React.useState(false)
-    const [state, setState] = React.useState(["HI"])
+    const [state, setState] = React.useState([])
 
 
     function filterData() {
@@ -55,21 +59,22 @@ export default function ClinicsLayout(props) {
         calendar_index = global.SELECTED_DATE
         calendar_data = global.CALENDAR_DATA
 
-        console.log('calendar data', calendar_data[1])
+        const select_day = calendar_data[calendar_index]
+        const next_day = calendar_data[calendar_index + 1]
 
-        console.log('filter clinic', clinic_id)
-        console.log('filter time', time)
-        console.log('filter band', band)
+        console.log("selected", select_day)
+        console.log("nex day", next_day)
+
 
         var count = 0;
-
-        console.log('length', data.length)
 
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].clinic_id == clinic_id && data[index].band == band) {
-                if (data[index].time > calendar_data[calendar_index].time
-                    && data[index].time < calendar_data[calendar_index + 1].time) {
+
+                if (data[index].time >= select_day.time
+                    && data[index].time < next_day.time) {
+
                     result.push({ ...data[index] })
                     console.log("count", count++)
                 }
@@ -79,7 +84,15 @@ export default function ClinicsLayout(props) {
         setState(result)
 
     }
+    function _setModal(pressDone) {
 
+        setModalVisible(!modalVisible)
+        if (pressDone == true) {
+            console.warn("Booked !")
+            Components.navigateToComponent("Home")
+        }
+
+    }
     return (
         <View style={{ flex: 1 }}>
             <Modal
@@ -90,7 +103,7 @@ export default function ClinicsLayout(props) {
                     console.alert("Modal has been closed.");
                 }}>
                 <ConfirmAppointmentCard
-                    parentHandlePress={() => setModalVisible(!modalVisible)}
+                    parentHandlePress={(value) => { _setModal(value) }}
                     clinic={global.SELECTED_CLINIC.name}
                     date={global.SELECTED_BOOKING.time}
                 />

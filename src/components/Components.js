@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, Text, FlatList } from 'react-native'
+import { View, Text, FlatList, Linking } from 'react-native'
 
 import * as styles from '../styles/Styles'
 
@@ -64,3 +64,17 @@ export function FlatListComponent(props) {
     )
 }
 
+export const OpenURL = ({ url, children }) => {
+    const handlePress = React.useCallback(
+        async () => {
+            // Checking if the link is supported for links with custom URL scheme.
+            const supported = await Linking.canOpenURL(url);
+            if (supported) {
+                // Opening the link with some app, if the URL scheme is "http" the web link should be opened
+                // by some browser in the mobile
+                await Linking.openURL(url);
+            } else {
+                Alert.alert(`Don't know how to open this URL: ${url}`);
+            }
+        }, [url]);
+};

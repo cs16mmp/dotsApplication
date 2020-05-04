@@ -17,7 +17,7 @@ export default function CalendarDataGenerator() {
 
     let _date = new Date()
 
-    var _todayTime = new Date(_date.getFullYear(), _date.getMonth(), _date.getDate(), '12', '00', '00', '00').getTime()
+    var _todayTime = new Date(_date.getFullYear(), _date.getMonth(), _date.getDate(), '00', '00', '00', '00').getTime()
 
     for (let index = 0; index < 20; index++) {
 

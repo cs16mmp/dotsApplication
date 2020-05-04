@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity, Linking } from 'react-native'
 
 import * as Styles from '../../styles/Styles'
 import * as Components from '../../components/Components'
@@ -9,7 +9,10 @@ export default function Item(item) {
 
     return (
         <TouchableOpacity
-            activeOpacity={0.3}>
+            onPress={() => {
+                console.warn('PRESSED!'); Linking.openURL(item.website)
+            }}
+            activeOpacity={0.5}>
             <View style={Styles.card('auto', 200, 'row')}>
                 <View style={{ flex: 1, flexDirection: 'column' }}>
                     <View style={{ flex: 1, maxHeight: 50, marginBottom: 16 }}>

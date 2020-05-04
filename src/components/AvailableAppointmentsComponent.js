@@ -10,14 +10,6 @@ var DATA = [];
 
 import { store } from '../navigation/store'
 
-function toHumanTime(time) {
-
-    let date = new Date(time);
-
-    return date.getDate() + " | " + (date.getHours() + ":" + date.getMinutes())
-
-}
-
 function _sortData(DATA) {
 
     if (typeof DATA !== 'undefined' && DATA !== '') {
@@ -83,7 +75,7 @@ export default function AvailableAppointmentsComponent(props) {
                     activeOpacity={0.5}
                     onPress={() => { props.parentHandlePress(); _storeItem(item) }}>
                     <AppointmentCardComponent
-                        timeString={toHumanTime(item.time)}
+                        item={item}
                     />
                 </TouchableOpacity>)}
             keyExtractor={item => item.id}
