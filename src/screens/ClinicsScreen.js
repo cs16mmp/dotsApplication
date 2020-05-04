@@ -14,6 +14,20 @@ import * as actions from '../actions/actions'
 
 import { store } from '../navigation/store'
 
+/////////
+import { API, graphqlOperation } from 'aws-amplify';
+
+import * as queries from '../graphql/queries';
+import * as subscriptions from '../graphql/subscriptions';
+
+import PubSub from '@aws-amplify/pubsub';
+
+import config from '../features/aws-exports'
+
+API.configure(config)
+PubSub.configure(config)
+////////////
+
 //store.dispatch(actions.fetchDataClinics()).then((store.getState().clinicsReducer.clinics))
 
 //store.dispatch(actions.fetchDataClinics()).then(() => console.log('ClinicsScreen', store.getState().clinicsReducer))
@@ -24,37 +38,23 @@ import { store } from '../navigation/store'
 const TITLE = 'Clinics'
 
 export const CLINICS_DATA = ClinicsData
-export const AVAILABLE_APPOINTMENTS_DATA = AppointmentsData
+// export const AVAILABLE_APPOINTMENTS_DATA = AppointmentsData
 
 export const DATE_DATA = CalendarDataGenerator()
+global.CALENDAR_DATA = DATE_DATA;
 
-export var SELECTED_BOOKING_ID = ""
-export var SELECTED_CLINIC = ""
-export var SELECTED_BAND = ""
-
-export var INITIAL_BOOKING_DATA = {
-    clinic_id: "",
-    time: "",
-    band: "",
+global.filter = {
+    filter: {
+        appointment_id: { contains: "EMPTY" },
+        //clinic_id: "",
+        // time: { contains: time },
+        // band: { contains: band },
+    }
 }
+global.SELECTED_DATE = ""
+global.SELECTED_TYPE_APPOINTMENT = ""
+global.SELECTED_CLINIC = ""
 
-export var BOOKING_DATA = {
-    id: "",
-    clinic_id: "",
-    time: "00:00",
-    band: "",
-}
-
-export var CLINIC_ID = "CLINIC"
-
-export var APPOINTMENT_DATA = {
-    id: "",
-    clinic_id: "",
-    name: "",
-    description: "",
-    phone: "",
-    created_at: ""
-}
 
 export function addAppointment() {
 
@@ -65,13 +65,61 @@ export function addAppointment() {
     actions.addAppointment(APPOINTMENT_DATA)
 
 }
+function fetchDATA() {
 
+    console.warn("data fetched")
+
+    return API.graphql(graphqlOperation(queries.listBookingSystemDBs, global.filter))
+        .then(
+            response => response,
+            error => console.log('List Booking Error', error),
+        )
+        .then(JSON => {
+            if (typeof JSON !== 'undefined') {
+                newDATA.BOOKING_DATA = JSON.data.listBookingSystemDBs.items
+                console.log('JSON', newDATA)
+            }
+        })
+}
 export default function ClinicsScreen() {
+
+    //const [formState, setFormState] = React.useState({ BOOKINGS_DATA: [], CLINICS_DATA: [] })
+    //const [data, setData] = React.useState({ BOOKINGS_DATA: [], CLINICS_DATA: [] })
+
+    // React.useEffect(() => {
+    //     fetchBookings()
+    //     fetchClinics()
+
+    // }, [])
+    // async function fetchBookings() {
+    //     try {
+    //         const bookingsData = await API.graphql(graphqlOperation(queries.listBookingSystemDBs, global.filter))
+    //         const JSON = bookingsData.data.listBookingSystemDBs.items
+    //         if (typeof JSON !== 'undefined') {
+    //             setData({ ...data, BOOKINGS_DATA: JSON })
+    //             console.log('Bookings', data)
+    //         }
+    //     } catch (err) { console.log('error fetching bookings') }
+    // }
+    // async function fetchClinics() {
+    //     try {
+    //         const clinicsData = await API.graphql(graphqlOperation(queries.listClinicsDBs))
+    //         const JSON = clinicsData.data.listClinicsDBs.items
+    //         if (typeof JSON !== 'undefined') {
+    //             setData({ ...data, CLINICS_DATA: JSON })
+    //             console.log('Clinics', data)
+    //         }
+    //     } catch (err) { console.log('error fetching clinics') }
+    // }
+
+    //console.log('Store Dispatch')
+    //store.dispatch(actions.fetchDataAppointments())
+    //DATA = store.getState().appointmentsReducer
 
     return (
         <ScreenLayout
             title={TITLE}
-            body={ClinicsLayout()}>
+            body={ClinicsLayout(AppointmentsData)}>
         </ScreenLayout>
     )
 

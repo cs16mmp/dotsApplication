@@ -12,7 +12,7 @@ function clinicsReducer(state = { clinics: [] }, action) {
     }
 }
 function appointmentsReducer(state = { appointments: [] }, action) {
-    //console.log('reducer', state)
+    console.log('Appointments reducer', state)
     switch (action.type) {
         case 'QUERY':
             return { ...state, appointments: action.appointments }

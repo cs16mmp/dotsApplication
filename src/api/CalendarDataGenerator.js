@@ -34,6 +34,9 @@ export default function CalendarDataGenerator() {
         _todayTime = _todayTime + (86400 * 1000) // Add one day
         _days[index] = _day
     }
+
+
+
     return _days
 }
 

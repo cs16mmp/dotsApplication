@@ -21,9 +21,10 @@ function receiveDataClinics(json) {
     }
 }
 function receiveDataAppointments(json) {
+    //console.log('receive appointments', json)
     return {
         type: RECEIVE_DATA,
-        appointments: json.data.listBookingSystemDBs.items,
+        appointments: json,
     }
 }
 function receiveDataOrganisations(json) {
@@ -109,23 +110,18 @@ export function fetchDataInfections() {
 }
 export function fetchDataAppointments() {
 
-    const filter = {
-        filter: {
-            appointment_id: { contains: "EMPTY" },
-            // clinic_id: { contains: clinic_id },
-            // time: { contains: time },
-            // band: { contains: band },
-        }
-    }
+    //console.log('Fetching data', global.filter.filter)
 
     return function (dispatch) {
 
-        return API.graphql(graphqlOperation(queries.listBookingSystemDBs, filter))
+        return API.graphql(graphqlOperation(queries.listBookingSystemDBs, global.filter))
             .then(
                 response => response,
                 error => console.log('List Booking Error', error),
             )
             .then(
-                json => dispatch(receiveDataAppointments(json)))
+                json => dispatch(receiveDataAppointments(json.data.listBookingSystemDBs.items))
+
+            )
     }
 }

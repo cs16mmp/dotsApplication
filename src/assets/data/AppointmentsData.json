@@ -1,92 +1,2538 @@
 [
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "9:30 - 12/Mar/2020",
-    "id": "e8055ac8-65e4-4416-a0e8-aa3723777eda",
-    "time": 1584005400000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588581000000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 4/May/2020",
+    "band": 2
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "12:30 - 7/Mar/2020",
-    "id": "adcdb6f8-7143-46f9-ad7b-1035e6911160",
-    "time": 1583584200000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588584600000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 4/May/2020",
+    "band": 4
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "8:30 - 14/Mar/2020",
-    "id": "f05cbf48-fd8e-492c-806f-962957bb4fd4",
-    "time": 1584174600000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588588200000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 4/May/2020",
+    "band": 4
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "14:30 - 5/Mar/2020",
-    "id": "58a6240c-a496-48c8-8558-a0e9c0bf1d71",
-    "time": 1583418600000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588591800000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 4/May/2020",
+    "band": 2
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "8:30 - 13/Mar/2020",
-    "id": "904d8dae-828b-4e22-a260-080e3836cf1b",
-    "time": 1584088200000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588595400000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 4/May/2020",
+    "band": 4
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "14:30 - 13/Mar/2020",
-    "id": "2dfacaef-f35b-4bec-8ba8-19758b7691a2",
-    "time": 1584109800000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588599000000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 4/May/2020",
+    "band": 3
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "11:30 - 14/Mar/2020",
-    "id": "415d362d-69ba-4e0b-89a0-a4f00ef7f814",
-    "time": 1584185400000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588602600000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 4/May/2020",
+    "band": 4
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "14:30 - 9/Mar/2020",
-    "id": "4a37a1f3-5e24-4361-9d33-fe94eac0397e",
-    "time": 1583764200000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588663800000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 5/May/2020",
+    "band": 4
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
-    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "8:30 - 9/Mar/2020",
-    "id": "bba98157-4443-4408-bd77-eacbeadf9a7f",
-    "time": 1583742600000
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588667400000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 5/May/2020",
+    "band": 3
   },
   {
     "appointment_id": "EMPTY",
-    "band": 1,
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588671000000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 5/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588674600000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 5/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588678200000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588681800000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588685400000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588689000000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 5/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588750200000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588753800000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588757400000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588761000000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588764600000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588768200000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588771800000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588775400000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588836600000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588840200000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588843800000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588847400000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588851000000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588854600000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588858200000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588861800000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588923000000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588926600000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 8/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588930200000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 8/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588933800000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588937400000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588941000000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588944600000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1588948200000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589009400000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 9/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589013000000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589016600000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589020200000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589023800000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589027400000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589031000000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589034600000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589095800000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589099400000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589103000000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589106600000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589110200000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589113800000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589117400000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589121000000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589182200000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589185800000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589189400000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589193000000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589196600000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589200200000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589203800000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589207400000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589268600000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589272200000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589275800000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589279400000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589283000000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589286600000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589290200000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589293800000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589355000000,
+    "created_at": 1588590129479,
+    "date": "8: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589358600000,
+    "created_at": 1588590129479,
+    "date": "9: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589362200000,
+    "created_at": 1588590129479,
+    "date": "10: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589365800000,
+    "created_at": 1588590129479,
+    "date": "11: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589369400000,
+    "created_at": 1588590129479,
+    "date": "12: 30 - 13/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589373000000,
+    "created_at": 1588590129479,
+    "date": "13: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589376600000,
+    "created_at": 1588590129479,
+    "date": "14: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "01d06df3-071c-4713-89e8-9708ccde2cfc",
+    "time": 1589380200000,
+    "created_at": 1588590129479,
+    "date": "15: 30 - 13/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
     "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
-    "created_at": 1583376913970,
-    "date": "13:30 - 8/Mar/2020",
-    "id": "fd01ce6f-a92d-4dff-bea0-3fe8c39e2eaa",
-    "time": 1583674200000
+    "time": 1588581000000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588584600000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588588200000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588591800000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588595400000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 4/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588599000000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 4/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588602600000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 4/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588663800000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588667400000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 5/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588671000000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588674600000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588678200000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 5/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588681800000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588685400000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588689000000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588750200000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588753800000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588757400000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 6/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588761000000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588764600000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588768200000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588771800000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588775400000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 6/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588836600000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588840200000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588843800000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588847400000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588851000000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588854600000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588858200000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588861800000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588923000000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588926600000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588930200000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588933800000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588937400000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588941000000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588944600000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588948200000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589009400000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589013000000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 9/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589016600000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 9/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589020200000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589023800000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589027400000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589031000000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589034600000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589095800000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589099400000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 10/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589103000000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589106600000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589110200000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589113800000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589117400000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 10/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589121000000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589182200000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589185800000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589189400000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589193000000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589196600000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589200200000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589203800000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589207400000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589268600000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589272200000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589275800000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589279400000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589283000000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589286600000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 12/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589290200000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589293800000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589355000000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589358600000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589362200000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589365800000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 13/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589369400000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589373000000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589376600000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589380200000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588577400000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 4/May/2020",
+    "band": ""
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588581000000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 4/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588584600000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 4/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588588200000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 4/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588591800000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 4/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588595400000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588599000000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 4/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588602600000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 4/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588663800000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 5/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588667400000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588671000000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588674600000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588678200000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588681800000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 5/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588685400000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 5/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588689000000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588750200000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588753800000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588757400000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588761000000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588764600000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588768200000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588771800000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 6/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588775400000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588836600000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588840200000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588843800000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588847400000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588851000000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588854600000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588858200000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588861800000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 7/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588923000000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588926600000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588930200000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 8/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588933800000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588937400000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588941000000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 8/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588944600000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1588948200000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589009400000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 9/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589013000000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 9/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589016600000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 9/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589020200000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 9/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589023800000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589027400000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 9/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589031000000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589034600000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589095800000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589099400000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589103000000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589106600000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589110200000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 10/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589113800000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589117400000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589121000000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589182200000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589185800000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589189400000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589193000000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589196600000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589200200000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589203800000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589207400000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589268600000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589272200000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 12/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589275800000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 12/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589279400000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589283000000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589286600000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 12/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589290200000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589293800000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 12/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589355000000,
+    "created_at": 1588589962592,
+    "date": "8: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589358600000,
+    "created_at": 1588589962592,
+    "date": "9: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589362200000,
+    "created_at": 1588589962592,
+    "date": "10: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589365800000,
+    "created_at": 1588589962592,
+    "date": "11: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589369400000,
+    "created_at": 1588589962592,
+    "date": "12: 30 - 13/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589373000000,
+    "created_at": 1588589962592,
+    "date": "13: 30 - 13/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589376600000,
+    "created_at": 1588589962592,
+    "date": "14: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "d33047c4-700e-4f6d-a083-f1f17aef6d6f",
+    "time": 1589380200000,
+    "created_at": 1588589962592,
+    "date": "15: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588581000000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588584600000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588588200000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588591800000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 4/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588595400000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 4/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588599000000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 4/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588602600000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 4/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588663800000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588667400000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 5/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588671000000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588674600000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588678200000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 5/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588681800000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588685400000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 5/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588689000000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 5/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588750200000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588753800000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 6/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588757400000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 6/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588761000000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588764600000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588768200000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 6/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588771800000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 6/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588775400000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 6/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588836600000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588840200000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588843800000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588847400000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 7/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588851000000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 7/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588854600000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588858200000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588861800000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 7/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588923000000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588926600000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588930200000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588933800000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588937400000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588941000000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 8/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588944600000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 8/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1588948200000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 8/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589009400000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589013000000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 9/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589016600000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 9/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589020200000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589023800000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 9/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589027400000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589031000000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589034600000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 9/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589095800000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589099400000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 10/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589103000000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 10/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589106600000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589110200000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589113800000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 10/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589117400000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 10/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589121000000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 10/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589182200000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589185800000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 11/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589189400000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589193000000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 11/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589196600000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589200200000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589203800000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 11/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589207400000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 11/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589268600000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589272200000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589275800000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589279400000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589283000000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 12/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589286600000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 12/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589290200000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 12/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589293800000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 12/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589355000000,
+    "created_at": 1588589896923,
+    "date": "8: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589358600000,
+    "created_at": 1588589896923,
+    "date": "9: 30 - 13/May/2020",
+    "band": 1
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589362200000,
+    "created_at": 1588589896923,
+    "date": "10: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589365800000,
+    "created_at": 1588589896923,
+    "date": "11: 30 - 13/May/2020",
+    "band": 4
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589369400000,
+    "created_at": 1588589896923,
+    "date": "12: 30 - 13/May/2020",
+    "band": 3
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589373000000,
+    "created_at": 1588589896923,
+    "date": "13: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589376600000,
+    "created_at": 1588589896923,
+    "date": "14: 30 - 13/May/2020",
+    "band": 2
+  },
+  {
+    "appointment_id": "EMPTY",
+    "clinic_id": "9b4c792c-5e64-11ea-bc55-0242ac130003",
+    "time": 1589380200000,
+    "created_at": 1588589896923,
+    "date": "15: 30 - 13/May/2020",
+    "band": 1
   }
 ]

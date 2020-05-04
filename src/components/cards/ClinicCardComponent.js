@@ -5,6 +5,9 @@ import SkeletonContent from "react-native-skeleton-content-nonexpo";
 
 import * as Styles from '../../styles/Styles'
 
+import { store } from '../../navigation/store'
+import * as actions from '../../actions/actions'
+
 const _changeColor = (selected) => {
     return (
         { color: selected ? Styles.colors.accentOrange : Styles.colors.darkBlue }
@@ -14,16 +17,19 @@ const _changeColor = (selected) => {
 function storeItem(item) {
 
     global.SELECTED_CLINIC = item
+
+    // global.filter.filter.clinic_id = { contains: item.id }
+
     console.log(global.SELECTED_CLINIC)
 
 }
 
-export default function ClinicCardComponent({ item, selected, onSelect }) {
+export default function ClinicCardComponent({ item, selected, onSelect, ParentFunction }) {
 
     return (
         <View style={styles.container}>
             <TouchableOpacity
-                onPress={() => { onSelect(item.id); storeItem(item) }}
+                onPress={() => { onSelect(item.id); storeItem(item); ParentFunction() }}
                 activeOpacity={0.5}>
                 <View style={Styles.card(286, 127, 'row')}>
                     <View style={styles.text}>

@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { View, FlatList, Text, ScrollView, Modal } from 'react-native'
 
-import { connect } from 'react-redux';
-
 import ClinicsCarouselComponent from '../components/ClinicsCarouselComponent'
 import CarouselPickerComponent from '../components/CarouselPickerComponent'
 import AvailableAppointmentsComponent from '../components/AvailableAppointmentsComponent'
@@ -20,18 +18,68 @@ import * as DATA from "../screens/ClinicsScreen"
 import TYPE_DATA from "../assets/data/AppointmentType.json"
 import CLINICS_DATA from "../assets/data/ClinicsData.json"
 import APPOINTMENTS_DATA from "../assets/data/AppointmentsData.json"
+
+// const clinics_data = store.getState().clinicsReducer()
+// const appointments_data = store.getState().appointmentsReducer()
+
 const clinics_data = CLINICS_DATA
-const appointments_data = APPOINTMENTS_DATA
+//var appointments_data = APPOINTMENTS_DATA
+
 
 import { store } from '../navigation/store'
 
 const type_data = TYPE_DATA
 
-// const clinics_data = store.getState().clinicsReducer()
-// const appointments_data = store.getState().appointmentsReducer()
+global.SELECTED_CLINIC = ""
+global.SELECTED_BOOKING = ""
 
-export default function ClinicsLayout() {
+//var appointments_data = filterData()
+
+export default function ClinicsLayout(props) {
+
     const [modalVisible, setModalVisible] = React.useState(false)
+    const [state, setState] = React.useState(["HI"])
+
+
+    function filterData() {
+
+        console.warn("Filtering DATA")
+
+        var result = [];
+
+        const data = APPOINTMENTS_DATA
+
+        clinic_id = global.SELECTED_CLINIC.id
+        band = global.SELECTED_TYPE_APPOINTMENT
+
+        calendar_index = global.SELECTED_DATE
+        calendar_data = global.CALENDAR_DATA
+
+        console.log('calendar data', calendar_data[1])
+
+        console.log('filter clinic', clinic_id)
+        console.log('filter time', time)
+        console.log('filter band', band)
+
+        var count = 0;
+
+        console.log('length', data.length)
+
+        for (let index = 0; index < data.length; index++) {
+
+            if (data[index].clinic_id == clinic_id && data[index].band == band) {
+                if (data[index].time > calendar_data[calendar_index].time
+                    && data[index].time < calendar_data[calendar_index + 1].time) {
+                    result.push({ ...data[index] })
+                    console.log("count", count++)
+                }
+            }
+        }
+
+        setState(result)
+
+    }
+
     return (
         <View style={{ flex: 1 }}>
             <Modal
@@ -50,25 +98,28 @@ export default function ClinicsLayout() {
             <View style={{ flex: 1, minHeight: 175 }} >
                 <CarouselPickerComponent
                     Item={ClinicCardComponent}
-                    Data={clinics_data}
+                    Data={DATA.CLINICS_DATA}
+                    ParentFunction={() => filterData()}
                 />
             </View>
             <View style={{ flex: 1, minHeight: 50 }} >
                 <CarouselPickerComponent
                     Item={DateItem}
                     Data={DATA.DATE_DATA}
+                    ParentFunction={() => filterData()}
                 />
             </View>
             <View style={{ flex: 1, minHeight: 50, alignItems: 'center' }} >
                 <CarouselPickerComponent
                     Item={TypeAppointmentItem}
                     Data={type_data}
+                    ParentFunction={() => filterData()}
                 />
             </View>
             <View style={{ flex: 1, minHeight: 300 }} >
                 <AvailableAppointmentsComponent
                     parentHandlePress={() => setModalVisible(true)}
-                    Data={appointments_data}
+                    Data={state}
                 />
             </View>
         </View>

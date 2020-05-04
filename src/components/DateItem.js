@@ -3,24 +3,26 @@ import { View, Text, StyleSheet, TouchableOpacity, FlatList, } from 'react-nativ
 
 import * as Styles from '../styles/Styles'
 
+
+
 const _changeColor = (selected) => {
     return (
         { color: selected ? Styles.colors.accentOrange : Styles.colors.darkBlue }
     )
 }
 
-function _storeItem(item) {
+function _storeItem(item, index) {
 
-    global.SELECTED_DATE = item
+    global.SELECTED_DATE = index
     console.log(global.SELECTED_DATE)
 
 }
 
-export default function DateItem({ item, selected, onSelect }) {
+export default function DateItem({ item, index, selected, onSelect, ParentFunction }) {
 
     return (
         <TouchableOpacity
-            onPress={() => { onSelect(item.id); _storeItem(item) }}
+            onPress={() => { onSelect(item.id); _storeItem(item, index); ParentFunction() }}
             activeOpacity={0.5}>
             <View style={{ height: 30, flexDirection: "column" }}>
                 <View style={{ flex: 1 }}>

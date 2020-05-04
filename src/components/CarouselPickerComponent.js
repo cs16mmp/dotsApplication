@@ -8,32 +8,17 @@ const _ItemSeparatorComponent = () => {
         <View style={{ width: 16 }}></View>
     )
 }
+function Item(item, index, select, onSelect, ItemInterface, ParentFunction) {
 
-function _storeInitialValue(item) {
-
-    console.log('STORE INITIAL VALUE')
-
-    if (typeof item.time !== 'undefined') {
-        DATA.INITIAL_BOOKING_DATA.time = item.time
-        console.log(DATA.INITIAL_BOOKING_DATA.time)
-    }
-    if (typeof item.band !== 'undefined') {
-        DATA.INITIAL_BOOKING_DATA.band = item.band
-        console.log(DATA.INITIAL_BOOKING_DATA.band)
-    }
-    if (typeof item.address !== 'undefined') {
-        DATA.INITIAL_BOOKING_DATA.clinic_id = item.id
-        console.log(DATA.INITIAL_BOOKING_DATA.clinic_id)
-    }
-}
-
-function Item(item, index, select, onSelect, ItemInterface) {
+    //console.log('carousel props', ParentFunction)
 
     return (
         <ItemInterface
             item={item}
+            index={index}
             selected={select}
             onSelect={onSelect}
+            ParentFunction={ParentFunction}
         />
     )
 }
@@ -51,12 +36,13 @@ export default CarouselPickerComponent = (props) => {
         },
         [selected],
     );
+
     return (
         <FlatList
             horizontal={true}
             data={props.Data}
             renderItem={({ item, index }) =>
-                Item(item, index, selected.get(item.id), onSelect, props.Item)}
+                Item(item, index, selected.get(item.id), onSelect, props.Item, props.ParentFunction)}
             keyExtractor={item => item.id}
             extraData={selected}
             ItemSeparatorComponent={_ItemSeparatorComponent}
